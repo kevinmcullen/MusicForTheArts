@@ -1,13 +1,13 @@
 @font-face { 
-  font-family: "Muller"; font-weight: thin; src: url('fonts/Muller-Thin.otf') format(opentype);
-  font-family: "Muller"; font-weight: bold; src: url('fonts/Muller-ExtraBold.otf') format(opentype);
-  font-family: "Muller"; font-weight: light; src: url('fonts/Muller-Light.otf') format(opentype);
+  font-family: "Muller"; font-weight: thin; src: url('Muller-Thin.otf') format(opentype);
+  font-family: "Muller"; font-weight: bold; src: url('Muller-ExtraBold.otf') format(opentype);
+  font-family: "Muller"; font-weight: 100; src: url('Muller-Light.otf') format(opentype);
 
 } 
 
 h1 {
-  font-family: Muller, sans-serif;
-/*  font-weight: bold;*/
+  font-family: "Muller", sans-serif;
+  font-weight: bold;
   text-align: center;
   padding-top: 15px;
   color: #F238A6;
@@ -15,7 +15,7 @@ h1 {
 }
 
 #thinTitle {
-  font-family: Muller, sans-serif;
+  font-family: "Muller", sans-serif;
   font-weight: thin;
 }
 
