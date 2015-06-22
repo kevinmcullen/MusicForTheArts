@@ -6,7 +6,7 @@
 } 
 
 h1 {
-  font-family: "Muller-ExtraBold", sans-serif;
+  font-family: "Muller", sans-serif;
   font-weight: bold;
   text-align: center;
   padding-top: 15px;
@@ -15,8 +15,8 @@ h1 {
 }
 
 #thinTitle {
-  font-family: "Muller-Thin", sans-serif;
-  font-weight: thin;
+  font-family: "Muller", sans-serif;
+  font-weight: 100;
 }
 
 #header {
