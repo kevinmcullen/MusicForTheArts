@@ -1,5 +1,26 @@
-@font-face { font-family: Muller; src: url('fonts/Muller-Thin.otf'); } 
+@font-face { 
+  font-family: Muller; font-weight: thin; src: url('fonts/Muller-Thin.otf');
+  font-family: Muller; font-weight: bold; src: url('fonts/Muller-ExtraBold.otf');
+  font-family: Muller; src: url('fonts/Muller-Light.otf');
+
+} 
 
 h1 {
-    font-family: Muller, sans-serif;
+  font-family: Muller, sans-serif;
+/*  font-weight: bold;*/
+  text-align: center;
+  padding-top: 15px;
+  color: #F238A6;
+  
+}
+
+#thinTitle {
+  font-family: Muller, sans-serif;
+  font-weight: thin;
+}
+
+#header {
+  background-color: black;
+  height: 100px;
+  
 }
