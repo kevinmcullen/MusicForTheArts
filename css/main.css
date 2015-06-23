@@ -21,7 +21,7 @@ h2 {
 }
 
 h1 span {
-  font-family: 'bebas_neuethin', sans-serif;
+  font-family: 'bebas_neuelight', sans-serif;
 }
 
 #thinTitleWhite {
@@ -58,16 +58,20 @@ HOME CONTENT
 ******************************/
 
 .background1 {
-  background-image: url("../img/placeholder.jpg");
+  background-image: url("../img/christina.jpg");
   background-size: cover;
   background-attachment: fixed;
-  height: 600px;
+  height: 300px;
 }
 
 
+/******************************
+footer
+******************************/
 
-
-
+footer {
+  background-color: #000;
+}
 
 
 
