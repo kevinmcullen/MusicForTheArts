@@ -70,7 +70,7 @@ HOME CONTENT
 ============================================================ */
 .container {
   max-width: 960px;
-  margin: 0 auto;
+  margin: 0 auto;  
 }
 /* ============================================================
   SECTIONS
@@ -93,6 +93,7 @@ section.module p:last-child {
 }
 section.module.content {
   padding: 40px 0;
+  background-color: rgba(0, 0, 0);
 }
 section.module.parallax {
   height: 600px;
