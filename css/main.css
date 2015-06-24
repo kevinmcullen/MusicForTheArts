@@ -8,6 +8,7 @@ HEADER
 /*  height: 100px;*/
   padding: 20px;
   box-shadow: 0px 1px 4px 0px #F238A6;
+
   
 }
 
@@ -58,11 +59,19 @@ HOME CONTENT
 ******************************/
 
 .background1 {
-  background-image: url("../img/christina.jpg");
+/*  background-image: url("../img/christina.jpg");*/
+/*  height: 300px;*/
+  width: 100%;
+/*
   background-size: cover;
   background-attachment: fixed;
   width: 100%;
   height: 300px;
+*/
+}
+
+.background1 img {
+  width: 100%;
 }
 
 
@@ -72,10 +81,65 @@ footer
 
 footer {
   background-color: #000;
+  text-align: center;
+  padding: 20px 10px 0;;
 }
 
+#copyright {
+  font-size: 8px;
+  color: #fff;
+  padding-top: 10px;
+  font-family: "Montserrat";
+  font-weight: 400;
+}
 
+.footerNav {
+/*  padding: 16px 0;*/
+}
 
+.socialIcons {
+  padding-top: 10px;
+}
+
+/******************************
+parallax test
+******************************/
+/*
+
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective-origin-x: 100%;
+}
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform-origin-x: 100%;
+}
+.parallax__layer--base {
+  transform: translateZ(0);
+
+}
+.parallax__layer--back {
+  transform: translateZ(-1px);
+  transform: translateZ(-1px) scale(2);
+}
+
+.parallax__group {
+  position: relative;
+  height: 100vh;
+  transform-style: preserve-3d;
+}
+
+.parallax__layer--main {
+  z-index: 1;
+}
+*/
 
 
 
