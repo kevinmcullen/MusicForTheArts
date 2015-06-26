@@ -1,3 +1,7 @@
+body {
+/*  overflow: auto;*/
+  height: auto;
+}
 /******************************
 HEADER 
 ******************************/
@@ -8,7 +12,13 @@ HEADER
 /*  height: 100px;*/
   padding: 20px;
   box-shadow: 0px 1px 4px 0px #F238A6;
-
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+  width: 100%;
+  box-sizing: border-box;
   
 }
 
@@ -73,7 +83,20 @@ HOME CONTENT
 .background1 img {
   width: 100%;
 }
+/*
 
+.main-content {
+ 
+ 
+  min-height: 800px;
+  background: transparent;
+}
+
+.main-content h2,
+.main-content p {
+  margin-top: 200px;
+}
+*/
 
 /******************************
 footer
@@ -82,7 +105,7 @@ footer
 footer {
   background-color: #000;
   text-align: center;
-  padding: 20px 10px 0;;
+  padding: 20px 10px 0;
 }
 
 #copyright {
@@ -119,7 +142,15 @@ footer a img:hover {
 /******************************
 parallax test
 ******************************/
+
+.parallax-window {
+    height: 1400px;
+    background: transparent;
+}
+
+
 /*
+
 
 .parallax {
   perspective: 1px;
@@ -127,6 +158,8 @@ parallax test
   overflow-x: hidden;
   overflow-y: auto;
   perspective-origin-x: 100%;
+    -webkit-perspective-origin-x: 100%;
+  
 }
 .parallax__layer {
   position: absolute;
@@ -135,30 +168,23 @@ parallax test
   bottom: 0;
   left: 0;
   transform-origin-x: 100%;
+    -webkit-transform-origin-x: 100%;
 }
 .parallax__layer--base {
   transform: translateZ(0);
-
 }
 .parallax__layer--back {
-  transform: translateZ(-1px);
   transform: translateZ(-1px) scale(2);
 }
+
+
 
 .parallax__group {
   position: relative;
   height: 100vh;
   transform-style: preserve-3d;
 }
-
-.parallax__layer--main {
-  z-index: 1;
-}
 */
-
-
-
-
 
 
 

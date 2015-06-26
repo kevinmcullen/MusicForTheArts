@@ -5,8 +5,11 @@
   <title>Music For The Arts</title>
   <meta name="description" content="">
   <meta name="author" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
   <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="js/main.js"></script>
+<!--  <script src="js/parallax.min.js"></script>-->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/skeleton.css">
@@ -19,25 +22,32 @@
   
     
 <body>
+  
   <div id="header" class="animated slideInDown">
     <h1>MUSIC<span id="thinTitle"><span id="thinTitleWhite">FOR</span>THE</span>ARTS</h1>
-    <nav>
-      <a href="#" class="selected">HOME</a>
+    <nav class="mainNav">
+      <a href="index.html" class="selected">HOME</a>
       <a href="#">EVENT</a>
       <a href="#">GUESTBOOK</a>
       <a href="#">DONATE</a>
     </nav>
-  </div> 
-  <div class="background1">
-    <img src="img/christina.jpg">
   </div>
-  <div class="container">
-    <h2>WHO WE ARE.</h2>
-    <p>The Music For The Arts Concert and Benefit held each year is dedicated to the life and memory of Christina Marie Cullen.</p>
-    <p>She was a gifted photographer, artist and musician who had her life taken by breast cancer. She was only 25 when she was diagnosed and passed away at the young age of 28. We hold this concert in her honor and hope to inspire future photographers, artists and musicians to keep creating as she did.</p>
-    <p>Proceeds from the concert will go toward The Christina Marie Cullen Memorial Scholarship at The University of the Arts for Photography. Additional proceeds will be donated towards breast cancer research and awareness in her name.</p>
-    <p>Please join us on DATE AND TIME HERE to celebrate Christina’s life and to raise awarenesss and money to fight this terrible disease.</p>
-  </div>
+  
+  <div class="parallax">
+    <div class="parallax__group">
+    <div class="background1 parallax__layer parallax__layer--back">
+      <img src="img/christina.jpg">
+    </div>
+    <div class="main-content">
+      <h2>WHO WE ARE.</h2>
+      <p>The Music For The Arts Concert and Benefit held each year is dedicated to the life and memory of Christina Marie Cullen.</p>
+      <p>She was a gifted photographer, artist and musician who had her life taken by breast cancer. She was only 25 when she was diagnosed and passed away at the young age of 28. We hold this concert in her honor and hope to inspire future photographers, artists and musicians to keep creating as she did.</p>
+      <p>Proceeds from the concert will go toward The Christina Marie Cullen Memorial Scholarship at The University of the Arts for Photography. Additional proceeds will be donated towards breast cancer research and awareness in her name.</p>
+      <p>Please join us on DATE AND TIME HERE to celebrate Christina’s life and to raise awarenesss and money to fight this terrible disease.</p>
+    </div>
+<!--    </div>-->
+<!--  </div>-->
+    
 
   
   
@@ -91,22 +101,6 @@
     </div>
 <!--  </div>-->
 </footer>
-
-
-
-
-<!--  
-  <div id="homeContent">
-
-  </div>
-      <div class="row">
-      <div class="one-half column">
-        
-        <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
-      </div>
-    </div>-->
-    
-
 </body>
 </html>
   
