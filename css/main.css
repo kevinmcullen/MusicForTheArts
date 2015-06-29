@@ -124,13 +124,13 @@ HOME CONTENT
   width: 100%;
 }
 
-@media only screen 
+/*@media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px)  {
   .background1 {
   background-image: url("../img/christina.jpg");
 
-/*  background-size: cover;*/
+
   width: 100%;
   background-position: top center;
   background-attachment: scroll;
@@ -145,13 +145,12 @@ and (max-device-width : 667px) {
   .background1 {
   background-image: url("../img/christina.jpg");
 
-/*  background-size: cover;*/
   width: 100%;
   background-position: top center;
   background-attachment: scroll;
   height: 100vh;
 }
-}
+}*/
   
   
 
