@@ -10,6 +10,7 @@
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
   <script src="js/main.js"></script>
 <!--  <script src="js/parallax.min.js"></script>-->
+  <script src="js/skrollr.min.js"></script>
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/animate.css">
   <link rel="stylesheet" href="css/skeleton.css">
@@ -33,9 +34,9 @@
     <div class="bumper">
     </div>
     <div class="background1">
-<!--      <img src="img/christina.jpg">-->
+
     </div>
-    <div class="main-content">
+    <div class="main-content" data-center-top="opacity:0;" data-top-top="opacity:1;">
       <h2>WHO WE ARE</h2>
       <p>The Music For The Arts Concert and Benefit held each year is dedicated to the life and memory of Christina Marie Cullen.</p>
       <p>She was a gifted photographer, artist and musician who had her life taken by breast cancer. She was only 25 when she was diagnosed and passed away at the young age of 28. We hold this concert in her honor and hope to inspire future photographers, artists and musicians to keep creating as she did.</p>
@@ -65,6 +66,11 @@
         </div>
       </div>
   </footer>
+  
+  <script src="js/skrollr.min.js"></script>
+  <script>
+        var s = skrollr.init();
+  </script>  
 </body>
 </html>
   
