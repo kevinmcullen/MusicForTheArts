@@ -127,11 +127,11 @@ and (max-device-width : 1024px)  {
   .background1 {
   background-image: url("../img/christina.jpg");
 
-  background-size: cover;
+/*  background-size: cover;*/
   width: 100%;
   background-position: top center;
 
-/*  height: 100vh;*/
+  height: 100%;
 }
 }
   
@@ -141,11 +141,11 @@ and (max-device-width : 667px) {
   .background1 {
   background-image: url("../img/christina.jpg");
 
-  background-size: cover;
+/*  background-size: cover;*/
   width: 100%;
   background-position: top center;
 
-/*  height: 100vh;*/
+  height: 100%;
 }
 }
   
