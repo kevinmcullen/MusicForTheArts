@@ -43,14 +43,22 @@ HEADER
 h1,
 h2 {
   font-family: 'bebas_neuebold', sans-serif;
-  font-size: 46px;
-  text-align: center;
+
   color: #F238A6;
   margin-bottom: 0;
 }
 
+h1 {
+  font-size: 46px;
+  text-align: center;
+}
+
 h1 span {
   font-family: 'bebas_neuelight', sans-serif;
+}
+
+h2 {
+  font-size: 50px;
 }
 
 #thinTitleWhite {
@@ -113,17 +121,52 @@ HOME CONTENT
   width: 100%;
 }
 
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px)  {
+  .background1 {
+  background-image: url("../img/christina.jpg");
+
+  background-size: cover;
+  width: 100%;
+  background-position: top center;
+
+  height: 100%;
+}
+}
+  
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) { 
+  .background1 {
+  background-image: url("../img/christina.jpg");
+
+  background-size: cover;
+  width: 100%;
+  background-position: top center;
+
+  height: 100%;
+}
+}
+  
+  
+
 
 .main-content {
  z-index: 100;
   background-color: rgba(255, 255, 255, .5);
-  padding-bottom: 40px;
+  padding: 30px 0;
 
 }
 
-.main-content p {
+.main-content p,
+.main-content h2 {
   width: 80%;
-  margin: 16px auto 0;
+  margin: 0 auto 0;
+}
+
+.main-content p {
+  margin-top: 16px;
 }
 
 
