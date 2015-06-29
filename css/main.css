@@ -128,7 +128,7 @@ HOME CONTENT
 } 
 
 
-/*@media only screen 
+@media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px)  {
   .background1 {
@@ -154,7 +154,7 @@ and (max-device-width : 667px) {
   background-attachment: scroll;
   height: 100vh;
 }
-}*/
+}
   
   
 
