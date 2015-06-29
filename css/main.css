@@ -246,7 +246,8 @@ parallax test
   border-right: 110px solid transparent;
 
   position: relative;
-  top: 92%;
+  top: -40px;
+  
   
 }
 
