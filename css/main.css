@@ -154,7 +154,7 @@ and (max-device-width : 667px) {
 
 .main-content {
 /* z-index: 100;*/
-  background-color: #fff;
+  background-color: transparent;
   padding: 30px 0 0;
   height: 100vh;
   position: relative;
