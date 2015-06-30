@@ -14,30 +14,13 @@
 });
   */
   
-  $(document).ready(function () {    
-    var iScrollPos = 0;
 
-$(window).on("scrollstart", function () {
-//    var iCurScrollPos = $(this).scrollTop();
-//    if (iCurScrollPos > iScrollPos) {
-      $(".mainNav").slideUp("slow");
-        //Scrolling Down
-
-    } else {
-      $(".mainNav").slideDown("slow");
-       //Scrolling Up
-
-    });
-
-//    iScrollPos = iCurScrollPos;
-
-});
 
   
-});
 
 
- /* $(document).ready(function () {    
+
+  $(document).ready(function () {    
     var iScrollPos = 0;
 
 $(window).scroll(function () {
@@ -57,4 +40,4 @@ $(window).scroll(function () {
 });
 
   
-});*/
+});
