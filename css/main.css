@@ -246,19 +246,19 @@ parallax test
 
 .arrowGroup {
   position: relative;
-  bottom: 100px;
-  margin: 0 0 -100px;
+  bottom: 50px;
+  margin: 0 0 -50px;
 }
 
 .scrollArrow { 
   width: 0;
   height: 0;
-  margin: 0 0 -25px 0;
+  margin: 0 0 -10px 0;
   
 /*  margin: 0 auto;*/
-  border-top: 50px solid rgba(242, 56, 166, 1);
-  border-left: 25px solid transparent; 
-  border-right: 25px solid transparent;
+  border-top: 30px solid rgba(242, 56, 166, 1);
+  border-left: 30px solid transparent; 
+  border-right: 30px solid transparent;
 
   position: relative;
   bottom: 40px; 
