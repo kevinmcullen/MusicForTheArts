@@ -1,4 +1,9 @@
-
+body {
+/*  overflow: inherit;*/
+/*  height: 100%;*/
+  margin: 0;
+/*  line-height: inherit;*/
+/*  background-color: #000;*/}
 
 
 /******************************
@@ -103,7 +108,7 @@ HOME CONTENT
   position: relative;
 
   
-  height: 98vh;
+  height: 100vh;
   z-index: -1;
 /*  margin-top: 500px;*/
 }
@@ -150,7 +155,7 @@ and (max-device-width : 667px) {
 .main-content {
 /* z-index: 100;*/
   background-color: white;
-  padding: 30px 0;
+  padding: 30px 0 0;
   height: 100vh;
   position: relative;
 
@@ -172,7 +177,7 @@ and (max-device-width : 667px) {
 }
 
 .main-content p:last-child {
-  margin-bottom: 50%;
+  margin-bottom: 30px;
 }
 
 /******************************
@@ -187,12 +192,17 @@ footer
 
 footer {
   background-color: #000;
+/*
+  border-bottom: solid 20px;
+  border-bottom-color: #000;
+*/
   text-align: center;
   position: relative;
   bottom: 0;
   width: 100%;
   margin: 0 auto 0;
-  padding: 30px 0 ;
+  padding: 15px 0 ;
+  line-height: 1.1em;
 
 }
 
@@ -259,11 +269,7 @@ parallax test
 
 
 
-body {
-  overflow: inherit;
-/*  height: 100%;*/
-  margin: 0 0 0 0;
-/*  background-color: #000;*/}
+
 
 
 
