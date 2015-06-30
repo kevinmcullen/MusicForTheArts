@@ -1,27 +1,9 @@
 html {
-/*  overflow: hidden;*/
+  overflow: hidden;
   height: 100%;
-/*  background-color: #000;*/
-}
+/*  background-color: #000;*/}
 
 
-/*
-
-body {
-  background-image: url(../img/christina.jpg);
-  overflow: auto;
-  height: auto;
-
-  width: 100%;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
-  margin-top: 100px;
-  position: relative;
-  top: 400px;
-
-}
-*/
 /******************************
 HEADER 
 ******************************/
@@ -216,7 +198,6 @@ footer {
   margin: 0 auto 0;
   padding: 30px 0 ;
 
-/*  margin-top: 20px;*/
 }
 
 #copyright {
