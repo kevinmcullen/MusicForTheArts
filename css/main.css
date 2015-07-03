@@ -101,21 +101,25 @@ HOME CONTENT
 */
 
 .background1 {
-  background-image: url("../img/christina.jpg");
+  background-image: url("../img/christina2.jpg");
   background-position: center;
   background-size: cover;
 /*  background-attachment: fixed;*/
   position: relative;
 
   
-  height: 100vh;
+  width: 100vw;
+  height: 80vh;
+/*  height: 100%;*/
   z-index: -1;
-/*  margin-top: 500px;*/
+  margin-top: 93px;
 }
 
+/*
 .background1 img {
   width: 100%;
 }
+*/
 
 
  
@@ -243,19 +247,65 @@ footer a img:hover {
 /******************************
 parallax test
 ******************************/
+/*
 
 .arrowGroup {
   position: relative;
   bottom: 50px;
   margin: 0 0 -50px;
 }
+*/
 
-.scrollArrow { 
+
+
+/******************************
+Active arrow
+******************************/
+
+/*
+.arrowGroup {
+  height: auto;
+  display: block;
+  z-index: 100;
+}
+*/
+
+
+*, *:before, *:after{ 
+    box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+} 
+.scrollArrow{ 
+    position: relative; 
+  bottom: 4%;
+/*
+    left: 30%;
+    right: 30%;
+*/
+    height: .5%; 
+    width: 15%; 
+    background-color: #F238A6; 
+    border-radius: 150px; 
+  margin: 0 auto 1%;
+} 
+.scrollArrow:after{ 
+    content: ""; 
+    height: 20px; 
+    width: 100px; 
+    border-top: 0px transparent; 
+}
+
+/******************************
+Old arrow
+******************************/
+
+/*.scrollArrow { 
   width: 0;
   height: 0;
   margin: 0 0 -10px 0;
   
-/*  margin: 0 auto;*/
+
   border-top: 30px solid rgba(242, 56, 166, 1);
   border-left: 30px solid transparent; 
   border-right: 30px solid transparent;
@@ -264,7 +314,7 @@ parallax test
   bottom: 40px; 
   left: 5%;
   
-}
+}*/
 
 
 
