@@ -1,6 +1,12 @@
 
 
 
+*, *:before, *:after{ 
+    box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+} 
+
 /******************************
 HEADER 
 ******************************/
@@ -10,7 +16,7 @@ HEADER
   background-color: black;
 /*  height: 100px;*/
   padding: 5px;
-  box-shadow: 0px 1px 4px 0px #F238A6;
+/*  box-shadow: 0px 1px 4px 0px #F238A6;*/
   position: fixed;
   top: 0;
   left: 0;
@@ -87,79 +93,21 @@ a:hover {
 HOME CONTENT
 ******************************/
 
-/*
-.bumper {
-  display: block;
-  height: 400px;
-  background-color: transparent;
-}
-*/
 
-.background1 {
-  background-image: url("../img/christina2.jpg");
-  background-position: center;
-  background-size: cover;
-/*  background-attachment: fixed;*/
-  position: relative;
-
-  
-  width: 100vw;
-  height: 80vh;
-/*  height: 100%;*/
-  z-index: -1;
-  margin-top: 93px;
-}
-
-/*
-.background1 img {
-  width: 100%;
-}
-*/
-
-
- 
-
-/*
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px)  {
-  .background1 {
-  background-image: url("../img/christina.jpg");
-
-
-  width: 100%;
-  background-position: top center;
-  background-attachment: scroll;
-
-  height: 100vh;
-}
-}
-  
-@media only screen 
-and (min-device-width : 375px) 
-and (max-device-width : 667px) { 
-  .background1 {
-  background-image: url("../img/christina.jpg");
-
-  width: 100%;
-  background-position: top center;
-  background-attachment: scroll;
-  height: 100vh;
-}
-}*/
-  
-  
 
 
 .main-content {
 /* z-index: 100;*/
-  background-color: transparent;
-  padding: 30px 0 0;
-  height: 100vh;
   position: relative;
-/*  margin-bottom: 30px;*/
+  top: -40%;
+  
+
+  height: 100%;
+
 
 }
+
+
 
 .main-content p,
 .main-content h2 {
@@ -171,13 +119,34 @@ and (max-device-width : 667px) {
   margin-top: 16px;
 }
 
+
 .wrapper {
-  background-color: transparent;
-  height: 100%;
+  background-color: #fff;
 }
+
+
 
 .main-content p:last-child {
   margin-bottom: 30px;
+}
+
+.heroImage {
+
+  position: relative;
+  width: 100%;
+
+
+  
+}
+
+.heroImage img {
+  width: 100%;
+
+
+  margin: 100px auto 0;
+
+  
+  
 }
 
 /******************************
@@ -239,77 +208,35 @@ footer a img:hover {
 }
 
 
-/******************************
-parallax test
-******************************/
-/*
 
-.arrowGroup {
+
+
+
+.scrollArrowGroup {
   position: relative;
-  bottom: 50px;
-  margin: 0 0 -50px;
+  bottom: 2.5vh;
+  width: 100%;
+
+
 }
-*/
+.scrollArrow { 
 
-
-
-/******************************
-Active arrow
-******************************/
-
-/*
-.arrowGroup {
-  height: auto;
-  display: block;
-  z-index: 100;
-}
-*/
-
-
-*, *:before, *:after{ 
-    box-sizing: border-box; 
-    -moz-box-sizing: border-box; 
-    -webkit-box-sizing: border-box; 
-} 
-.scrollArrow{ 
-    position: relative; 
-  bottom: 6%;
-/*
     left: 30%;
     right: 30%;
-*/
-    height: .5%; 
+    height: 4px; 
     width: 15%; 
     background-color: #F238A6; 
     border-radius: 150px; 
-  margin: 0 auto 1%;
+  margin: 4px auto;
 } 
 .scrollArrow:after{ 
     content: ""; 
     height: 20px; 
     width: 100px; 
     border-top: 0px transparent; 
+
 }
 
-/******************************
-Old arrow
-******************************/
-
-/*.scrollArrow { 
-  width: 0;
-  height: 0;
-  margin: 0 0 -10px 0;
-  
-
-  border-top: 30px solid rgba(242, 56, 166, 1);
-  border-left: 30px solid transparent; 
-  border-right: 30px solid transparent;
-
-  position: relative;
-  bottom: 40px; 
-  left: 5%;
-  
-}*/
 
 
 
