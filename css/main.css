@@ -7,17 +7,23 @@
     -webkit-box-sizing: border-box; 
 } 
 
+#the {
+  color: #000;
+/*  font-family: 'bebas_neueregular', sans-serif;*/
+  
+}
+
 /******************************
 HEADER 
 ******************************/
 
 
-#header {
+header {
   background-color: black;
 /*  height: 100px;*/
   padding: 5px;
 /*  box-shadow: 0px 1px 4px 0px #F238A6;*/
-  position: fixed;
+/*  position: fixed;*/
   top: 0;
   left: 0;
   right: 0;
@@ -50,8 +56,12 @@ h1 span {
 }
 
 h2 {
-  font-size: 50px;
+  font-size: 4em;
+  text-align: center;
+  line-height: 1;
 }
+
+
 
 #thinTitleWhite {
   color: #FFF;
@@ -100,19 +110,28 @@ HOME CONTENT
 /* z-index: 100;*/
   position: relative;
   top: -40%;
-  
-
   height: 100%;
-
-
+  background: rgba(255,255,255,0);
+background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 14%, rgba(255,255,255,1) 88%, rgba(255,255,255,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,0)), color-stop(0%, rgba(255,255,255,0)), color-stop(0%, rgba(255,255,255,0)), color-stop(14%, rgba(255,255,255,1)), color-stop(88%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1)));
+background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 14%, rgba(255,255,255,1) 88%, rgba(255,255,255,1) 100%);
+background: -o-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 14%, rgba(255,255,255,1) 88%, rgba(255,255,255,1) 100%);
+background: -ms-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 14%, rgba(255,255,255,1) 88%, rgba(255,255,255,1) 100%);
+background: linear-gradient(to bottom, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 14%, rgba(255,255,255,1) 88%, rgba(255,255,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 );
 }
 
 
 
 .main-content p,
-.main-content h2 {
+.main-content h2,
+.main-content h3 {
   width: 80%;
-  margin: 0 auto;
+  margin: 0 auto 10%;
+}
+
+h2 {
+  margin: 30px auto;
 }
 
 .main-content p {
@@ -131,19 +150,21 @@ HOME CONTENT
 }
 
 .heroImage {
-
+  margin: 0 auto;
   position: relative;
   width: 100%;
+/*  height: 800px; */
 
 
   
 }
 
 .heroImage img {
+  position: relative;
   width: 100%;
-
-
-  margin: 100px auto 0;
+  max-width: 750px;
+  margin: 0 auto;
+/*  height: 100%;*/
 
   
   
@@ -214,8 +235,10 @@ footer a img:hover {
 
 .scrollArrowGroup {
   position: relative;
-  bottom: 2.5vh;
+/*  top: 5vh;*/
+/*  bottom: 2.5vh;*/
   width: 100%;
+  margin: 20px auto 20px;
 
 
 }
@@ -224,7 +247,7 @@ footer a img:hover {
     left: 30%;
     right: 30%;
     height: 4px; 
-    width: 15%; 
+    width: 40px; 
     background-color: #F238A6; 
     border-radius: 150px; 
   margin: 4px auto;
