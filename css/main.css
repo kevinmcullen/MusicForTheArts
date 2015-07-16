@@ -1,4 +1,6 @@
-
+html {
+  font-family: 'Montserrat', sans-serif;
+}
 
 
 *, *:before, *:after{ 
@@ -7,14 +9,19 @@
     -webkit-box-sizing: border-box; 
 } 
 
-::-webkit-input-placeholder { color:#959595; font-family: 'Montserrat', sans-serif; font-weight: 400; font-size: .7em; padding-left: 5%;}
-::-moz-placeholder { color:#959595; font-family: 'Montserrat', sans-serif; font-weight: 400; font-size: .7em; padding-left: 5%;} /* firefox 19+ */
-:-ms-input-placeholder { color:#959595; font-family: 'Montserrat', sans-serif; font-weight: 400; font-size: .7em; padding-left: 5%;} /* ie */
-input:-moz-placeholder { color:#959595; font-family: 'Montserrat', sans-serif; font-weight: 400;font-size: .7em; padding-left: 5%;}
+::-webkit-input-placeholder { color:#959595; font-family: 'Montserrat', sans-serif; font-weight: 400; font-size: .7em; padding: 2px 0 0 2%; }
+::-moz-placeholder { color:#959595; font-family: 'Montserrat', sans-serif; font-weight: 400; font-size: .7em; padding: 2px 0 0 2%;} /* firefox 19+ */
+:-ms-input-placeholder { color:#959595; font-family: 'Montserrat', sans-serif; font-weight: 400; font-size: .7em; padding: 2px 0 0 2%;} /* ie */
+input:-moz-placeholder { color:#959595; font-family: 'Montserrat', sans-serif; font-weight: 400;font-size: .7em; padding: 2px 0 0 2%;}
 
 
+a {
+  color: #F238A6;
+  font-weight: 700;
+}
 
-#the {
+
+.the {
   color: #000;
 /*  font-family: 'bebas_neueregular', sans-serif;*/
   
@@ -22,6 +29,16 @@ input:-moz-placeholder { color:#959595; font-family: 'Montserrat', sans-serif; f
 
 .pinkText {
   color: #F238A6;
+}
+
+ul {
+  padding-left: 0;
+  width: 80%;
+  margin: auto;
+}
+
+.centerIntro {
+  text-align: center;
 }
 
 /******************************
@@ -47,7 +64,11 @@ header {
 }
 
 h1,
-h2 {
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: 'bebas_neuebold', sans-serif;
 
   color: #F238A6;
@@ -67,9 +88,14 @@ h1 span {
 }
 
 h2 {
-  font-size: 3em;
+  font-size: 52px;
   text-align: center;
   line-height: 1;
+}
+
+h3 {
+  font-size: 30px;
+  line-height: .9;
 }
 
 
@@ -136,8 +162,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 
 .main-content p,
-.main-content h2,
-.main-content h3 {
+.main-content h2 {
   width: 80%;
   margin: 5% auto 5%;
 }
@@ -170,7 +195,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   position: relative;
   width: 100%;
 /*  max-width: 750px;*/
-  margin: 0 auto;
+  margin: 0 auto 0;
 /*  height: 100%;*/
 
   
@@ -277,9 +302,11 @@ footer a img:hover {
 event page
 ******************************/
 
+/*
 .main-content ul li {
   width: 80%;
 }
+*/
 
 ul li {
   list-style: none;
@@ -319,9 +346,49 @@ ul li {
 */
 
 h3 {
-  margin: 100px auto;
+  margin: 20px auto 0;
   text-align: center;
+  padding: 10px;
+  color: #F238A6;
 }
+
+h4 {
+  font-size: 24px;
+}
+
+.hedSpan {
+  background-color: #000;
+  width: 100%;
+  color: #fff;
+/*  margin-top: 40px;*/
+}
+
+.moreInfo .hedSpan {
+  margin: 0 auto 20px;
+  padding: 6px;
+
+  
+
+}
+
+.moreInfo {
+  padding-bottom: 40px;
+  text-align: center;
+
+
+}
+
+.moreInfo ul {
+  width: 80%;
+}
+
+.moreInfo ul li {
+  padding: 3px 0;
+  margin; 0 auto;
+}
+
+
+
 
 
 /******************************
@@ -331,23 +398,29 @@ guestbook
 form > * {
   text-align: left;
   display: block;
-  width: 100%;
+  width: 80%;
   border-radius: 5px;
-  
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+  font-size: 1em;
 }
 
 form label {
-  margin: 10px auto;
+  margin: 10px auto 4px;
   color: #F238A6;
+  font-weight: 700;
 }
 
 form input,
 textarea {
   border: 1px solid #ebebeb;
-
+  margin: auto;
   display: block;
   background-color: #ebebeb;
-  
+}
+
+textarea {
+  height: 160px;
 }
 
 input:focus,
@@ -360,22 +433,41 @@ textarea:focus {
 }
 
 
-input[type=submit] {
-  margin-top: 10px;
+input[type=submit],
+.button {
+  margin: 10px auto 20px;
   color: #fff;
   background-color: #F238A6;
   padding: 10px;
   border: 0;
-  transition: all .3s ease-in-out;
+  transition: all .2s ease-in-out;
+  text-align: center;
 }
 
-input[type=submit]:hover {
+.button {
+  border-radius: 5px;
+  text-align: center;
+  width: 80%;
+  margin: 20px auto 0;
+}
+
+
+
+input[type=submit]:hover,
+.button:hover {
   background-color: #bf357f;
+
 }
 
+/******************************
+donate
+******************************/
 
-
-
+.donateInfo {
+  background-color: #eee;
+  color: #000;
+  padding-bottom: 40px;
+}
 
 
 
