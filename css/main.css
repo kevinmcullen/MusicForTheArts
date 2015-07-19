@@ -176,7 +176,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 
-
+#disqus_thread {
+  height: 100%;
+}
 /*.main-content p:last-child {
   margin-bottom: 30px;
 }*/
@@ -185,6 +187,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   margin: 0 auto;
   position: relative;
   width: 100%;
+
+  
 /*  height: 800px; */
 
 
@@ -192,7 +196,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 }
 
 .heroImage img {
-  position: relative;
+
   width: 100%;
 /*  max-width: 750px;*/
   margin: 0 auto 0;
