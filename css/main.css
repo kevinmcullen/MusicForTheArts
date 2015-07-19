@@ -1,5 +1,6 @@
-html {
+body, html, main {
   font-family: 'Montserrat', sans-serif;
+  height: 100%;
 }
 
 
@@ -138,7 +139,7 @@ a:hover {
 
 
 /******************************
-HOME CONTENT
+MAIN CONTENT
 ******************************/
 
 
@@ -180,20 +181,42 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   width: 80%;
   margin: 0 auto 40px;
 }
-/*.main-content p:last-child {
-  margin-bottom: 30px;
-}*/
+
 
 .heroImage {
   margin: 0 auto;
   position: relative;
-  width: 100%;
+  max-width: 100%; 
+  height: 88vh;
+  background: #fff  no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+}
 
-  
-/*  height: 800px; */
+/* set background image per page */
+
+.home-bg {
+  background-image: url(../img/christina2.jpg);
+}
+
+.event-bg {
+  background-image: url(../img/event1.jpg);
+}
+
+.guestbook-bg {
+  background-image: url(../img/guestbook.png);
+}
+
+.donate-bg {
+  background-image: url(../img/ribbon.png);
+}
 
 
-  
+
+
+
+img#ribbon {
+  margin: 20px auto 0;
 }
 
 .heroImage img {
@@ -269,17 +292,14 @@ footer a img:hover {
 
 
 
+/******************************
+Scroll Arrow
+******************************/
+/*
 
-.scrollArrowGroup {
-  position: relative;
-/*  top: 5vh;*/
-/*  bottom: 2.5vh;*/
-  width: 100%;
-  margin: 0 auto 20px;
-
-
-}
 .scrollArrow { 
+  
+  
 
     left: 30%;
     right: 30%;
@@ -295,6 +315,61 @@ footer a img:hover {
     width: 100px; 
     border-top: 0px transparent; 
 
+}
+*/
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: .5;
+        background-color: #fff;
+        animation-timing-function: ease-in;
+    }
+    50% {
+        transform: scale(1.05);
+        opacity: .6; 
+        background-color: #FAAFDB;
+        animation-timing-function: ease-out;
+    }
+    100% {
+        transform: scale(1);
+        opacity: .5;   
+        background-color: #fff;
+    }
+}
+
+
+.heroImage .scrollArrowGroup {
+  position: absolute; 
+  bottom: 6vh;
+  margin: 0 auto;
+  width: 100%;
+/*  opacity: .6;*/
+ 
+}
+
+
+
+.scrollArrowGroup img {
+     -webkit-transition: bottom 0.2s linear;
+  transition: bottom 0.2s linear;
+  animation: pulse 1.8s infinite;
+
+  width: 16%;
+  margin: 0 42%;
+  background-color: #fff;
+  
+  padding: 10px;
+  border-radius: 50%;
+/*  max-width: 40px;*/
+  
+}
+
+.scrollArrowGroup img:hover {
+  animation: pulse 1s infinite;
+  animation-play-state: paused;
+  bottom: 5.5vh;
+  opacity: 1;
 }
 
 
@@ -326,6 +401,7 @@ ul li {
 }
 
 
+/*
 .band {
 
   width: 100%;
@@ -343,6 +419,28 @@ ul li {
 
 
 }
+*/
+
+.band-fixed-bg {  
+  min-height: 40vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  z-index: 1;
+}
+
+.band-fixed-bg.band-bg-1 {
+  background-image: url(..//img/droppindeuce.jpg);  
+}
+
+
+band-scroll-bg {
+  min-height: 100%;
+}
+
+
+
 
 /*
 .band:after {
