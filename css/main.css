@@ -178,6 +178,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 #disqus_thread {
   width: 80%;
+  margin: 0 auto 40px;
 }
 /*.main-content p:last-child {
   margin-bottom: 30px;
