@@ -215,6 +215,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 .guestbook-bg {
   background-image: url(../img/guestbook.png);
+  background-position: right;
 }
 
 .donate-bg {
