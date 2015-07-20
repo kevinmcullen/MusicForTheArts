@@ -220,6 +220,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   background-image: url(../img/event1.jpg);
 }
 
+@media screen and (min-width: 950px) {
+    .event-bg {
+        background-image: url(../img/event1-wide.jpg);
+    }
+    
+}
+
 .guestbook-bg {
   background-image: url(../img/guestbook.png);
   background-position: right;
@@ -573,7 +580,21 @@ donate
 
 
 
+/******************************
+responsive
+******************************/
 
+/* @media screen and (min-width: 850px) {
+    header > a {
+        width: 55%;
+        margin-left: 5%;
+        display: inline;
+        text-align: left
+    }
+    wid {
+        
+    }
+}*/
 
 
 
