@@ -164,7 +164,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 #main-content p,
 #main-content h2 {
-  width: 80%;
+  width: 80%;  
+}
+
+#main-content p {
+  margin: 1em auto;
+}
+
+#main-content h2 {
   margin: 5% auto 5%;
 }
 
