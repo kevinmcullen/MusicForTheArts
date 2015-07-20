@@ -196,7 +196,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 @media screen and (max-device-width: 768px) {
   .heroImage {
     background-attachment: scroll;
-    background-size: contain;
+/*    background-size: contain;*/
     height: 100vh;
     overflow: hidden;
   }
@@ -304,28 +304,9 @@ footer a img:hover {
 /******************************
 Scroll Arrow
 ******************************/
-/*
 
-.scrollArrow { 
-  
-  
 
-    left: 30%;
-    right: 30%;
-    height: 4px; 
-    width: 40px; 
-    background-color: #F238A6; 
-    border-radius: 150px; 
-  margin: 4px auto;
-} 
-.scrollArrow:after{ 
-    content: ""; 
-    height: 20px; 
-    width: 100px; 
-    border-top: 0px transparent; 
 
-}
-*/
 
 @keyframes pulse {
     0% {
