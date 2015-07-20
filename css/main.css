@@ -145,7 +145,7 @@ MAIN CONTENT
 
 
 
-.main-content {
+#main-content {
  z-index: 100;
   position: relative;
   top: -40%;
@@ -162,8 +162,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 
 
-.main-content p,
-.main-content h2 {
+#main-content p,
+#main-content h2 {
   width: 80%;
   margin: 5% auto 5%;
 }
