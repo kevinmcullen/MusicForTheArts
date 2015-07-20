@@ -193,6 +193,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   background-size: cover;
 }
 
+@media screen (max-width: 768px) {
+  .heroImage {
+    background-attachment: scroll;
+  }
+}
+
 /* set background image per page */
 
 .home-bg {
@@ -342,7 +348,7 @@ Scroll Arrow
 .heroImage .scrollArrowGroup {
   position: absolute; 
   bottom: 6vh;
-  margin: 0 auto;
+/*  margin: 0 auto;*/
   width: 100%;
 /*  opacity: .6;*/
  
@@ -354,9 +360,13 @@ Scroll Arrow
      -webkit-transition: bottom 0.2s linear;
   transition: bottom 0.2s linear;
   animation: pulse 1.8s infinite;
-
+  display: block;
+  width: 50px;
+  margin: 0 auto;
+/*
   width: 16%;
   margin: 0 42%;
+*/
   background-color: #fff;
   
   padding: 10px;
