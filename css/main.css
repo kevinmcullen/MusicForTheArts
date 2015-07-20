@@ -193,9 +193,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   background-size: cover;
 }
 
-@media screen (max-width: 768px) {
+@media screen and (max-device-width: 768px) {
   .heroImage {
     background-attachment: scroll;
+/*    background-size: contain;*/
   }
 }
 
