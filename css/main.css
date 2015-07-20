@@ -145,7 +145,7 @@ MAIN CONTENT
 
 
 
-.main-content {
+#main-content {
  z-index: 100;
   position: relative;
   top: -40%;
@@ -162,8 +162,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 
 
-.main-content p,
-.main-content h2 {
+#main-content p,
+#main-content h2 {
   width: 80%;
   margin: 5% auto 5%;
 }
@@ -378,44 +378,16 @@ Scroll Arrow
 event page
 ******************************/
 
-/*
-.main-content ul li {
-  width: 80%;
-}
-*/
 
 ul li {
   list-style: none;
-
 }
 
 
 
 .lineup img {
   width: 100%;
-
 }
-
-
-/*
-.band {
-
-  width: 100%;
-
-  margin: 0 auto;
-
-
-}
-
-.band img {
-  position: relative;
-
-
-  width: 100%;
-
-
-}
-*/
 
 .band-fixed-bg {  
   min-height: 40vh;
