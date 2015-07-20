@@ -197,6 +197,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
   .heroImage {
     background-attachment: scroll;
     background-size: contain;
+    height: 100vh;
+    overflow: hidden;
   }
 }
 
