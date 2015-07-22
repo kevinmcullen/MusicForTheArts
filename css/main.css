@@ -162,7 +162,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 #main-content p,
 #main-content h2 {
-  width: 80%;  
+  width: 60%;  
 }
 
 #main-content p {
@@ -183,7 +183,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 
 #disqus_thread {
-  width: 80%;
+  width: 60%;
   margin: 0 auto 40px;
 }
 
@@ -515,7 +515,7 @@ h4 {
 }
 
 .moreInfo ul {
-  width: 80%;
+  width: 60%;
 }
 
 .moreInfo ul li {
@@ -583,7 +583,7 @@ input[type=submit],
 .button {
   border-radius: 5px;
   text-align: center;
-  width: 80%;
+  width: 60%;
   margin: 20px auto 0;
 }
 
@@ -593,6 +593,10 @@ input[type=submit]:hover,
 .button:hover {
   background-color: #bf357f;
 
+}
+
+.lineup div {
+  padding-bottom: 20px;
 }
 
 /******************************
