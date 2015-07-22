@@ -126,9 +126,6 @@ nav a {
   padding: 6px 2px;
 }
 
-nav.mainNav {
-  padding: 6px 0;
-}
 
 .selected {
   color: #F238A6; 
@@ -601,18 +598,21 @@ responsive
     header nav {
         width: 38%;
         margin-right: 2%;
-        margin-top: 80px;
-        display: inline;
+        margin-top: 40px;
+        display: inline-block;
         text-align: right;
         float: right;
-        
-        height: 100px;
+        font-size: 18px;
+
         
     }
     
     header nav a {
-        vertical-align: text-bottom;
+/*        vertical-align: text-bottom;*/
         text-align: right;
+        box-sizing: border-box;
+        vertical-align: bottom;
+        
         
     }
    
