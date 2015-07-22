@@ -15,10 +15,11 @@ body, html, main {
 :-ms-input-placeholder { color:#959595; font-family: 'Montserrat', sans-serif; font-weight: 400; font-size: .7em; padding: 2px 0 0 2%;} /* ie */
 input:-moz-placeholder { color:#959595; font-family: 'Montserrat', sans-serif; font-weight: 400;font-size: .7em; padding: 2px 0 0 2%;}
 
+test {}
 
 a {
   color: #F238A6;
-  font-weight: 700;
+/*  font-weight: 700;*/
 }
 
 
@@ -84,9 +85,7 @@ h1 {
   margin-top: 6px;
 }
 
-h1 span {
-  font-family: 'bebas_neuelight', sans-serif;
-}
+
 
 h2 {
   font-size: 52px;
@@ -99,7 +98,9 @@ h3 {
   line-height: .9;
 }
 
-
+span#thinTitle {
+    font-family: 'bebas_neuelight', sans-serif;
+}
 
 #thinTitleWhite {
   color: #FFF;
@@ -584,17 +585,38 @@ donate
 responsive
 ******************************/
 
-/* @media screen and (min-width: 850px) {
-    header > a {
-        width: 55%;
-        margin-left: 5%;
+@media screen and (min-width: 850px) {
+    header h1 {
+        width: 58%;
+        margin-left: 2%;
         display: inline;
-        text-align: left
+        text-align: left;
+        font-size: 120px;
+        letter-spacing: -2px;
+        line-height: 1;
+        padding; 60px;
+        vertical-align: text-top;
     }
-    wid {
+    
+    header nav {
+        width: 38%;
+        margin-right: 2%;
+        margin-top: 80px;
+        display: inline;
+        text-align: right;
+        float: right;
+        
+        height: 100px;
         
     }
-}*/
+    
+    header nav a {
+        vertical-align: text-bottom;
+        text-align: right;
+        
+    }
+   
+}
 
 
 
