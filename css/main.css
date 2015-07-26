@@ -469,8 +469,11 @@ Scroll Arrow
 
 
 .scrollArrowGroup img {
-     -webkit-transition: bottom 0.2s linear;
+/*
+    -moz-transition: bottom 0.2s linear;
+    -webkit-transition: bottom 0.2s linear;
   transition: bottom 0.2s linear;
+*/
   animation: pulse 3s infinite;
   display: block;
   width: 50px;
@@ -490,7 +493,7 @@ Scroll Arrow
 .scrollArrowGroup img:hover {
   animation: pulse 1s infinite;
   animation-play-state: paused;
-  bottom: 5.5vh;
+/*  bottom: 5.5vh;*/
   opacity: 1;
 }
 
