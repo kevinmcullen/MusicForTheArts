@@ -35,10 +35,21 @@ $(document).ready(function () {
     }
   });
     
+  $(window).scroll(function() {
+
+    if ($(this).scrollTop()>100)
+     {
+        $('.scrollArrowGroup').fadeOut(1000);
+     }
+    else
+     {
+      $('.scrollArrowGroup').fadeIn(1000);
+     }
+ });
+    
   $('.single-item').slick({
 //    setting-name: setting-value;
-      dots: true,
-    
+      dots: true,  
   });
 });
   
