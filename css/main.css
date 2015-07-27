@@ -257,7 +257,7 @@ MAIN CONTENT
   width: 80%;  
 }
 
-#main-content p {
+body p {
   margin: 1em auto;
 }
 
@@ -787,18 +787,20 @@ h6 {
 slideshow
 ******************************/
 
+/*
 .single-item {
-  background-color: rgba(242, 56, 166, .1);
+  border: px solid #F238A6;
 }
+*/
 
 
 .single-item img {
 
   object-fit: contain;
   max-width: 100%;
-  max-height: 550px;
+  max-height: 100%;
   margin: 0 auto;
-  border: 0;
+/*  border: 6px #F238A6;*/
   
 
 }
@@ -840,16 +842,12 @@ slideshow
 
 .slick-slide p {
   font-size: .8em;
-  padding: 4px;
-  position: relative;
-  bottom: 40px;
-  background-color: 
-  rgba(242, 56, 166, .1);
+  margin: 1em auto 0;
+  text-align: center;
+/*  background-color: #F238A6;*/
 }
 
-slick-prev:before,
-.slick-next:before {
-    font-family: 'Montserrat';
-  font-weight: 400;
-}
+
+
+
   
