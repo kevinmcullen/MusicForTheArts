@@ -37,13 +37,13 @@ $(document).ready(function () {
     
   $(window).scroll(function() {
 
-    if ($(this).scrollTop()>150)
+    if ($(this).scrollTop()>200)
      {
-        $('.scrollArrowGroup').fadeOut(1000);
+        $('.scrollArrowGroup').fadeOut(500);
      }
     else
      {
-      $('.scrollArrowGroup').fadeIn(1000);
+      $('.scrollArrowGroup').fadeIn(500);
      }
  });
     

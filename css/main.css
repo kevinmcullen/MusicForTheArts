@@ -218,6 +218,7 @@ p {
 
 nav {
   text-align: center;
+  margin-top: 6px;
 }
 
 a {
@@ -260,6 +261,7 @@ MAIN CONTENT
   height: 100%;
   width: 80%;
   margin: 0 auto;
+  padding-top: 20px;
 }
 
 
