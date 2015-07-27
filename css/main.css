@@ -706,6 +706,9 @@ responsive
     width: 100%;
     margin: 0 auto;
   }
+  .heroImage .scrollArrowGroup {
+  top: 90vh;
+  }
 }
 
 @media screen and (min-width: 850px) {
