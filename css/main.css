@@ -624,6 +624,7 @@ h4 {
   background-color: #000;
   padding: 10px;
   color: #fff;
+  text-align: center;
 }
 
 .moreInfo .hedSpan {
@@ -662,11 +663,34 @@ donate
   padding-bottom: 40px;
 }
 
+.button {
+  margin-bottom: 20px;
+}
+
 .donateInfo ul {
 /*  width: 100%;*/
   margin: 0 auto;
   -webkit-padding-start: 0;
 }
+
+.donateInfo h3,
+.donateInfo h4 {
+  color: #000;
+  padding: 0;
+}
+
+.moreInfo {
+
+  margin-top: 20px;
+  text-align: right;
+
+}
+
+.moreInfo h4 {
+  text-align: right;
+}
+
+
 
 .button {
 	
@@ -781,9 +805,11 @@ h6 {
 /*      display: inline;*/
     }
   
+/*
   .logo h1 a {
     padding: 0 10px;
   }
+*/
   
     .mainNav.five.columns {
 /*      width: 40%;*/
