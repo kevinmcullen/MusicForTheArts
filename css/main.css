@@ -131,12 +131,14 @@ a {
 
 .tk {
   text-align: center;
-  color: #F238A6;
+  color: #fff;
   margin: auto;
-  font-size: 2.5em;
+  font-size: 2.2em;
   letter-spacing: -2px;
   line-height: 1em;
   margin-top: 1em;
+  background-color: #F238A6;
+  padding: 10px;
 }
 
 /*
@@ -327,18 +329,18 @@ body h2 {
 }
 
 .event-bg {
-  background-image: url(../img/event1.jpg);
+  background-image: url(../img/MFTAphotos/vert/photo2.jpg);
 }
 
 @media screen and (min-width: 950px) {
     .event-bg {
-        background-image: url(../img/event1-wide.jpg);
+        background-image: url(../img/MFTAphotos/horiz/photo16.jpg);
     }
     
 }
 
 .guestbook-bg {
-  background-image: url(../img/guestbook.png);
+  background-image: url(../img/guestbook.jpg);
   background-position: right;
 }
 
@@ -525,7 +527,7 @@ event page
 
 
 #eventIntro {
-  margin-bottom: 80px;
+  margin-bottom: 40px;
 }
 
 ul li {
@@ -663,9 +665,6 @@ donate
   padding-bottom: 40px;
 }
 
-.button {
-  margin-bottom: 20px;
-}
 
 .donateInfo ul {
 /*  width: 100%;*/
@@ -704,10 +703,12 @@ donate
   text-align: center;
   width: 40%;
 /*  margin: 20px auto 40px 10%;*/
-  
-  margin-top: 20px;
+  margin-bottom: 20px;
 	
 }
+
+
+
 
 .button:hover {
   background-color: #bf357f;
