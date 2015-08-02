@@ -588,14 +588,14 @@ h4 {
     -webkit-margin-end: 0px;
 }
 
-.container.slideshow {
+#slideshow {
   margin: 40px auto;
 }
 
-.container.slideshow > h3 {
+#slideshow > h3 {
   text-align: center;
-  background-color: #F238A6;
-  color: #fff;
+/*  background-color: #F238A6;*/
+  color: #F238A6;
 } 
 
 
@@ -869,6 +869,7 @@ slideshow
   font-size: .8em;
   margin: 1em auto 0;
   text-align: center;
+  display: block;
 }
 
 .slick-prev,
@@ -960,6 +961,25 @@ SLICK RESPONSIVE
 *************************************/
 
 @media screen and (max-width: 700px) {
+  
+ #slideshow {
+   position: relative;
+    width: 120%;
+left: -10%;
+  }
+  
+  ul.slick-dots {
+    bottom: -3em;
+  }
+  
+  .slick-dots li {
+    margin: 0 2px;
+  }
+  
+  .slick-slider {
+    margin-bottom: 50px;
+  }
+  
     .slick-prev,
   .slick-next {
     width: 35px;
@@ -988,7 +1008,7 @@ SLICK RESPONSIVE
   }
   .slick-prev, 
   .slick-next {
-    margin-top: 15%;
+    margin-top: 35%;
     
   }
 }
