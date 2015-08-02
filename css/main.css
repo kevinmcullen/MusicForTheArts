@@ -689,7 +689,7 @@ slideshow
     font-size: 0;
     line-height: 0;
     position: absolute;
-    top: 52%;
+    top: 50%;
     display: block;
     width: 40px;
     height: 40px;
@@ -777,8 +777,6 @@ SLICK RESPONSIVE
    position: relative;
     width: 125%;
    left: -12.5%;
-   max-width: 125%;
-   max-height: 125%;
   }
   
   ul.slick-dots {
