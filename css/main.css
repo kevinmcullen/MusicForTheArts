@@ -1008,8 +1008,8 @@ left: -10%;
   }
   .slick-prev, 
   .slick-next {
-    margin-top: 35%;
-    
+/*    margin-top: 35%;*/
+    display: none;
   }
 }
   
