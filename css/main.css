@@ -994,8 +994,6 @@ left: -10%;
     font-size: 25px;
   }
   
-  
-  
   .slick-prev {
     left: 4%;
   }
@@ -1010,35 +1008,14 @@ left: -10%;
       left: 4%;
   }
   /*hide arrows on mobile*/
-  .slick-prev, 
-  .slick-next {
-  display: none;
+  .slick-arrow {
+  opacity: 0;
   }
 }
   
   
   
   
-  
-
-/*
-
-@media screen and (max-width: 650px) {
-    
-
-}*/
-
-
-
-
-/*
-.slideshow-bg {
-  background-color: #F238A6;
-  width: 100%;
-  background-size: cover;
-}
-*/
-
 
 
 
