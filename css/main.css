@@ -291,12 +291,12 @@ body h2 {
 }
 
 .event-bg {
-  background-image: url(../img/MFTAphotos/vert/photo2.jpg);
+  background-image: url(../img/MFTAphotos/vert/DoertheExternest/photo2.jpg);
 }
 
 @media screen and (min-width: 950px) {
     .event-bg {
-        background-image: url(../img/MFTAphotos/horiz/photo16.jpg);
+        background-image: url(../img/MFTAphotos/horiz/DoertheExternest/photo16.jpg);
     }
 }
 
@@ -440,13 +440,13 @@ ul li {
 }
 
 
-.band:hover a {
+.band a:hover {
     -moz-filter: brightness(160%);
     -webkit-filter: brightness(160%);
   filter: brightness(160%);
 }
 
-.band:hover > a h4 {
+ .band a:hover > h4 {
   color: #888;
 }
 
@@ -553,7 +553,6 @@ donate
   transform: scale(1);
 }
 
-
 /******************************
 responsive
 ******************************/
@@ -578,6 +577,15 @@ h5,
 h6 {
   text-align: left;
 }
+  
+  nav {
+    margin-top: 0;
+  }
+  
+  nav a {
+    padding 6px 0;
+    font-size: .8em;
+  }
   
   h3.container {
     font-size: 56px;
@@ -616,7 +624,7 @@ h6 {
     }
 
     .mainNav nav {
-      margin-top: 50px;
+      margin-top: 46px;
       text-align: right;
       font-size: 18px;
     }
@@ -636,6 +644,43 @@ h6 {
   .button {
     margin: 0;
   }
+  
+  footer nav {
+    width: 45%;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 5%;
+    float: left;
+    display: block;
+  }
+  
+  .socialIcons {
+    float: right;
+    width: 25%;
+    margin: 0 10% 0 5%;
+    display: block;
+  }
+  
+  .socialIcons a img {
+    float: right;
+    margin-left: .4em;
+  }
+  
+  #copyright {
+    margin-top: 3em;
+    width: 100%;
+    text-align: center;
+    display: block;
+  }
+  
+  #copyright p {
+    margin: 0 auto;
+    
+  }
+  
+  
+  
+  
 }
 
 @media screen and (min-width: 1000px) {
@@ -644,9 +689,11 @@ h6 {
     }  
   
     .mainNav nav { 
-    margin-top: 70px;
-    font-size: 18px;
+    margin-top: 63px;
+    font-size: 1.4em;
     }
+  
+  
 }
 
 /******************************
