@@ -660,6 +660,10 @@ slideshow
   margin: 0 auto;
 }
 
+.slick-dots li {
+    margin: 0;
+  }
+
 .slick-dots li button:before {
     opacity: .25;
     color: #F238A6;
@@ -784,7 +788,7 @@ SLICK RESPONSIVE
   }
   
   .slick-dots li {
-    margin: 0 2px;
+    margin: 0 -4px;
   }
   
   .slick-slider {
