@@ -76,12 +76,31 @@
             zoom: 16
           });
          
+          var infowindow = new google.maps.InfoWindow();
+          var service = new google.maps.places.PlacesService(map);
+
+          service.getDetails({
+            placeId: 'ChIJVVxRaIbAxokRaUIqCSOUB94'
+          }, function(place, status) {
+            if (status === google.maps.places.PlacesServiceStatus.OK) {
+              var marker = new google.maps.Marker({
+                map: map,
+                position: place.geometry.location
+              });
+              google.maps.event.addListener(marker, 'click', function() {
+                infowindow.setContent(place.name);
+                infowindow.open(map, this);
+              });
+            }
+  });
           
-      var marker = new google.maps.Marker({
+          
+          
+/*      var marker = new google.maps.Marker({
     position: myLatLng,
     map: map,
     title: 'The Ardmore Music Hall'
-  });
+  });*/
         }
         
             
