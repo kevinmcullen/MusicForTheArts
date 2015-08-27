@@ -54,20 +54,7 @@ $(document).ready(function () {
   });
 });
 
-function initialize() {
-  var mapOptions = {
-    scrollwheel: false
-  }
-  var map = new google.maps.Map(document.getElementById("map"),
-       mapOptions);
-};
-  
-/*function initMap() {
-  var map = new google.maps.Map(document.getElementById('map'), {
-    scrollwheel: false
-  });
-}*/
-  
+
   
 //    var iScrollPos = 0;
 //
