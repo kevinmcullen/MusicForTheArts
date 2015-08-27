@@ -256,7 +256,8 @@ MAIN CONTENT
 }
 
 .eventDetails h2,
-.eventDetails h3 {
+.eventDetails h3,
+.eventDetails h4{
   text-align: center;
   margin: 10px auto;
   color: #fff;
