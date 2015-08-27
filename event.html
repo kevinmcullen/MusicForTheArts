@@ -73,7 +73,8 @@
           var myLatLng = {lat: 40.007816, lng: -75.289977};
           var map = new google.maps.Map(document.getElementById('map'), {
             center: myLatLng,
-            zoom: 16
+            zoom: 16,
+            scrollwheel: false
           });
          
           var infowindow = new google.maps.InfoWindow();
@@ -88,7 +89,7 @@
                 position: place.geometry.location
               });
               google.maps.event.addListener(marker, 'click', function() {
-                infowindow.setContent('<a href="http://www.ardmoremusic.com/">The Ardmore Music Hall</a><br><p>23 Lancaster Ave, Ardmore, PA 19003</p>');
+                infowindow.setContent('<a href="http://www.ardmoremusic.com/" target="_blank">The Ardmore Music Hall</a><br><p>23 Lancaster Ave, Ardmore, PA 19003</p>');
                 infowindow.open(map, this);
               });
             }
