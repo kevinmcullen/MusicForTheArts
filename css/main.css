@@ -136,7 +136,7 @@ a {
   font-size: 1.4em;
   line-height: 1em;
   margin-top: 2em;
-  background-color: #F238A6;
+/*  background-color: #F238A6;*/
   padding: .5em;
   vertical-align: text-top;
 }
@@ -244,6 +244,26 @@ MAIN CONTENT
   padding-top: 20px;
 }
 
+.eventDetails {
+  background-color: #F238A6;
+  padding: .4em 2em 2em;
+}
+
+.eventDetails h2,
+.eventDetails h3 {
+  text-align: center;
+  margin: 10px auto;
+}
+
+.eventDetails h2 {
+    font-size: 80px;
+}
+
+.eventDetails > * {
+  color: #fff;
+  margin: 0;
+}
+
 body p,
 body h2 {
   margin: 1em auto;
@@ -333,7 +353,7 @@ footer {
 }
 
 #copyright p {
-  font-size: 8px;
+  font-size: 10px;
   color: #fff;
   font-family: "Montserrat";
   font-weight: 400;
@@ -531,26 +551,35 @@ donate
 
 .button {
   display: inline-block;
+  color: #F238A6;
+  border: 1px solid #F238A6;
+  
   color: #fff;
   background-color: #F238A6;
   padding: 10px;
-  border: 0;
-  transition: all .2s ease-in-out;
-  border-radius: 5px;
+/*  border: 0;*/
+  transition: all .3s ease-in-out;
+  border-radius: 10px;
   text-align: center;
   width: 40%;
   margin: 0 30%;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .button:hover {
+  background-color: #fff;
+/*
   background-color: #E42388;
   transform: scale(1.03);
   box-shadow: 1px 1px 2px #999;
+*/
+  color: #F238A6;
+  border-radius: 0;
 }
 
 .button:active {
-  transform: scale(1);
+  color: #fff;
+  background-color: #F238A6;
 }
 
 /******************************
@@ -642,7 +671,7 @@ h6 {
 }
   
   .button {
-    margin: 0;
+    margin: 0 0 20px;
   }
   
   footer nav {
