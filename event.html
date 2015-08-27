@@ -88,7 +88,7 @@
                 position: place.geometry.location
               });
               google.maps.event.addListener(marker, 'click', function() {
-                infowindow.setContent(place.vicinity);
+                infowindow.setContent(place.name.formatted_address);
                 infowindow.open(map, this);
               });
             }
