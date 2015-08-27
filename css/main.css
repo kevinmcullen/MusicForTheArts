@@ -249,6 +249,12 @@ MAIN CONTENT
   padding: .4em 2em 2em;
 }
 
+.eventDetails a,
+.eventDetails p {
+  font-family: 'Montserrat';
+  margin: 0;
+}
+
 .eventDetails h2,
 .eventDetails h3 {
   text-align: center;
