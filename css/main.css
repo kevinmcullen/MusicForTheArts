@@ -253,6 +253,7 @@ MAIN CONTENT
 .eventDetails h3 {
   text-align: center;
   margin: 10px auto;
+  color: #fff;
 }
 
 .eventDetails h2 {
@@ -260,7 +261,6 @@ MAIN CONTENT
 }
 
 .eventDetails > * {
-  color: #fff;
   margin: 0;
 }
 
