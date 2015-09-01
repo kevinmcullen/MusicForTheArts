@@ -135,7 +135,7 @@ a {
   margin: auto;
   font-size: 1.4em;
   line-height: 1em;
-  margin-top: 2em;
+/*  margin-top: 2em;*/
 /*  background-color: #F238A6;*/
   padding: .5em;
   vertical-align: text-top;
@@ -259,25 +259,32 @@ MAIN CONTENT
 .eventDetails h3,
 .eventDetails h4{
   text-align: center;
-  margin: 10px auto;
+  margin: 0 auto;
   color: #fff;
+}
+
+.eventDetails h3,
+.eventDetails h4 {
+  font-family: 'bebas_neuelight';
 }
 
 .eventDetails h2 {
     font-size: 80px;
 }
 
+.eventDetails h4 {
+  margin-bottom: .4em;
+}
 .eventDetails > * {
   margin: 0;
 }
 
-body p,
-body h2 {
+body p {
   margin: 1em auto;
   width: 100%;
 }
 
-#main-content h2 {
+h2 {
   margin: 2% auto 1%;
 }
 
@@ -718,6 +725,10 @@ h6 {
   #copyright p {
     margin: 0 auto;
     
+  }
+  .tk {
+    text-align: left;
+    padding-left: 0;
   }
   
   
