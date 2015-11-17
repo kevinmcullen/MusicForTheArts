@@ -351,6 +351,7 @@ span#thinTitle {
 
 p {
   font-family: 'Montserrat', sans-serif;
+  line-height: 1.2em;
 }
 
 nav {
@@ -405,28 +406,62 @@ MAIN CONTENT
   margin: 0;
 }
 
-.eventDetails h2,
 .eventDetails h3,
-.eventDetails h4{
+.eventDetails h4,
+.eventDetails h5{
   text-align: center;
   margin: 0 auto;
   color: #fff;
 }
 
-.eventDetails h3,
-.eventDetails h4 {
-  font-family: 'bebas_neuelight';
-}
-
-.eventDetails h2 {
-    font-size: 80px;
-}
-
-.eventDetails h4 {
+.eventDetails h4,
+.eventDetails h5 {
   margin-bottom: .4em;
 }
+
+.eventDetails h4,
+.eventDetails h5 {
+  font-family: 'bebas_neue_regularregular';
+}
+
+
 .eventDetails > * {
   margin: 0;
+}
+
+aside#flyer {
+  width: 16em;
+  height: 16em;
+  margin: 1em auto;
+/*  font-size: .8em;*/
+  text-align: center;
+  border-radius: 50%;
+  background-color: #F238A6;
+  padding: 1em;
+  color: #fff;
+}
+
+@media screen and (min-width: 600px) {
+  aside#flyer {
+    float: right;
+    margin-left: 1.5em;
+  }
+
+}
+
+aside#flyer p {
+    padding: 1.5em;
+  margin-bottom: 0;
+}
+
+aside#flyer a {
+  color: #fff;
+  font-size: 1.2em;
+/*  margin-top: .6em;*/
+}
+
+aside#flyer a:hover {
+  color: #000;
 }
 
 body p {
