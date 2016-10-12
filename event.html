@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Music For The Arts</title>
+  <meta name="description" content="Music For The Arts is an annual charity music and arts event in Philadelphia in memory of Christina Marie Cullen. Proceeds from the event go toward The Christina Marie Cullen Memorial Scholarship at The University of the Arts for Photography. Additional proceeds will be donated towards breast cancer research and awareness in her name.">
+  <meta name="author" content="Music For The Arts">
+  <meta name="viewport" content="width=device-width, initial-scale=1">  
+  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>  
+  <script src="js/main.js"></script>
+  <link rel="stylesheet" href="fonts/fonts.css">
+  <link rel="stylesheet" href="css/main.min.css">
+<!--  <link rel="stylesheet" href="css/main.css">-->
+  <script src="js/prefixfree.min.js"></script>
+  <link rel="icon" type="image/png" href="img/MFTAfavicon.png">
+</head>  
+<body>  
+  
+  <!-- Header
+        –––––––––––––––––––––––––––––––––––––––––––––––––– -->    
+  
+  <header class="animated slideInDown">
+    <div class="row">
+      <div class="logo seven columns">
+      <h1><a href="index.html">MUSIC<span id="thinTitle"><span id="thinTitleWhite">FOR</span>THE</span>ARTS</a></h1>
+    </div>
+    <div class="mainNav five columns"> 
+      <nav>
+          <a href="index.html" >HOME</a>
+          <a href="event.html" class="selected">EVENT</a>
+          <a href="guestbook.html">GUESTBOOK</a>
+          <a href="donate.html">DONATE</a>
+      </nav>
+    </div>
+    </div>
+  </header>
+  
+  <!-- Main
+        –––––––––––––––––––––––––––––––––––––––––––––––––– -->    
+  
+  
+   <div class="wrapper">
+     <div class="heroImage event-bg">
+        <div class="scrollArrowGroup">
+          <a href="#main-content"><img src="img/scroll-arrow.png"></a>
+        </div>
+     </div> 
+     <div  id="main-content"> 
+       <section id="eventIntro">
+         <aside id="flyer">
+             <p>Help us spread the word by displaying our flyer at your business or sharing with friends.</p> <a href="img/MFTAphotos/horiz/MFTA2016.jpg">DOWNLOAD<br>HERE</a>
+          </aside>
+        <h2>EVENT</h2>
+          
+        
+         <!-- <P>The 2016 Music For The Arts concert and benefit will take place DATE AND TIME at LOCATION. </p>-->
+          <p>In an effort to bring together local artists and musicians, the Cullen family will host its 9th annual Music For The Arts on Jan. 16, 2016.</p> 
+          <p>Our annual event affords artists the opportunity to donate or display their work at the benefit while local musicians take the stage. The concept is to create a gallery and concert in one. So if you are a photographer, painter, or any other kind of artist, this is a great opportunity to network and get your art out there for people to see.</p> 
+          <p>Friends, family, newcomers and neighbors are invited to enjoy the sounds and take in some culture.</p> 
+          <p>$15 entrance fee/donation will be accepted at the door. All donations will be made in the name of our sister, daughter, cousin and friend to many &mdash; Christina Marie Cullen. She was a gifted artist, photographer and musician and this is the only true way to honor her life.</p>
+
+          <p>In addition, we are always looking for donations of all kinds &mdash; big or small &mdash; for our raffle and auction. It's a great way to represent your business or art with this local community gathering.</p>
+          <p>If you are interested in participating or donating, please contact Jason Cullen at <a href="mailto:jasoncullen78@gmail.com">jasoncullen78@gmail.com</a>. (You may need to bring supports/tables/etc. to hang your work.)</p><br><br>
+
+
+<!--         <p class="tk"><strong>2016 EVENT DETAILS COMING SOON</strong></p>-->
+        <section class="eventDetails">
+<!--          <h3>2016 DETAILS</h3>-->
+          <h3>January 16, 2016<br>The Ardmore Music Hall</h3>
+          <h4>$15 donation/entrance fee at the door</h4>
+          <div id="map"></div>
+          <script type="text/javascript">
+
+//        var map;
+        function initMap() {
+          var myLatLng = {lat: 40.007816, lng: -75.289977};
+          var map = new google.maps.Map(document.getElementById('map'), {
+            center: myLatLng,
+            zoom: 16,
+            scrollwheel: false
+          });
+         
+          var infowindow = new google.maps.InfoWindow();
+          var service = new google.maps.places.PlacesService(map);
+
+          service.getDetails({
+            placeId: 'ChIJVVxRaIbAxokRaUIqCSOUB94'
+          }, function(place, status) {
+            if (status === google.maps.places.PlacesServiceStatus.OK) {
+              var marker = new google.maps.Marker({
+                map: map,
+                position: place.geometry.location
+              });
+              google.maps.event.addListener(marker, 'click', function() {
+                infowindow.setContent('<a href="http://www.ardmoremusic.com/" target="_blank">The Ardmore Music Hall</a><br><p>23 Lancaster Ave, Ardmore, PA 19003</p>');
+                infowindow.open(map, this);
+              });
+            }
+          });
+        }
+          </script>
+          <script async defer
+          src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAlgjjlUld4uHLOQv-FYEev2XKXHYo7N9I&libraries=places&callback=initMap">
+          </script>
+       </section>
+       </section>
+          
+          <h3>2016 LINEUP</h3>
+            <section class="lineup container">
+              <div class="row">
+                <div class="six columns band">
+                  <a href="https://www.reverbnation.com/chrisgrunwald">
+                      <img src="img/MFTAphotos/horiz/DoertheExternest/photo12.jpg"><h4>The Griz Band</h4>
+                  </a>
+                  <p>Affectionately known by all who love him as Griz (and currently performing under that pseudonym), singer, songwriter and multi-instrumentalist, Chris Grunwald, is a maverick in the Philadelphia music community. Loosely described as an Americana-Folk artist, his work defies an easy pigeonhole as it effortlessly pushes the boundaries of compatible genres including reggae, rock, alternative and country, while still maintaining his unique and recognizable signature sounds.</p>
+                </div>
+                <div class="six columns band">
+                  <a href="https://www.facebook.com/Next-Wednesday-152628211418625/">
+                      <img src="img/MFTAphotos/horiz/NextWednesday.jpg"><h4>Next Wednesday</h4>
+                  </a>
+                  <p>Formed in 2011, Next Wednesday is a band of musical brethren whose sounds are influenced by the behemoths of rock and roll and nuanced by their passion for folk, blues, pop, and improvisational jams. Despite their limited appearances, their fan-base continues to grow exponentially, largely due to the popularity of their annual Black Friday show which draws hundreds of people from throughout the Delaware Valley to experience a memorable night of the band's unique interpretations of songs from the most prolific and iconic rock bands in history.</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="six columns band">
+                  <a href="https://www.facebook.com/TheTCColeRiot/">
+                      <img src="img/MFTAphotos/horiz/TC-cole-riot.JPG"><h4>The TC Cole Riot</h4>
+                  </a>
+                  <p>The Riot is a collective effort of musicians surrounding the songwriting of TC Cole, stylistically coming from Folk, Punk, Country and Blues music.</p>
+                </div>
+                <div class="six columns band">
+                  <a>
+                      <img src="img/droppindeuce.jpg"><h4>Droppin&#39; Deuce</h4>
+                  </a>
+                  <p>Christina's brothers, naturally, perform every year. Brian on the drums. Jason on the Bass. They are Droppin&#39; Deuce.</p>
+                </div>
+              </div>
+              <div class="row">
+                <div class="six columns band">
+                  <a href="https://www.reverbnation.com/highkick">
+                      <img src="img/MFTAphotos/horiz/DoertheExternest/photo02.jpg"><h4>HighKick</h4>
+                  </a>
+                  <p>HighKick is a West Philadelphia based band who continue to evolve and challenge themselves as performers. Presenting their fans with improvisational jams, layered indie sagas, bluegrass singalongs and a trilogy of Christmas Musicals to boot. HighKick aim to please and shoot to kill.</p>
+                </div>
+              </div>
+
+
+           </section>
+<!--              <div class="row">
+
+                <div class="six columns band">
+                  <a href="#">
+                      <img src="img/band1.jpg"><h4>Droppin&#39; Deuce</h4>
+                  </a>
+                  <p>This band is comprised of two dudes who love being dudes. And stuff. More stuff will go here but these dudes are just dudes for the time being.</p>
+                </div>
+              </div>-->
+            
+    </div> 
+    </div>
+  
+  
+<!-- Footer
+        –––––––––––––––––––––––––––––––––––––––––––––––––– -->   
+
+    <footer>
+      <nav class="footerNav">
+        <a href="index.html">HOME</a>
+        <a href="event.html" class="selected">EVENT</a>
+        <a href="guestbook.html">GUESTBOOK</a>
+        <a href="donate.html">DONATE</a>
+      </nav>
+      <div class="socialIcons">
+        <a href="https://twitter.com/MusicForTheArts"><img src="img/twitter.png"></a>
+        <a href="https://www.facebook.com/MusicForTheArtsBenefit"><img src="img/facebook.png"></a>
+      </div>
+      <div id="copyright">
+        <p>&copy; 2015. Music For The Arts. All Rights Reserved. | Site designed by <a href="http://kevincullen.me" target="_blank">Kevin Cullen Design</a></p>
+      </div>
+    </footer>
+</body>
+</html>
+  
